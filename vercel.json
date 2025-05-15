@@ -6,5 +6,8 @@
   "framework": "nextjs",
   "rewrites": [
     { "source": "/(.*)", "destination": "/fastre/$1" }
-  ]
+  ],
+  "git": {
+    "submodules": false
+  }
 } 
