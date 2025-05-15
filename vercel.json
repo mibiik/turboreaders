@@ -1,8 +1,8 @@
 {
-  "buildCommand": "cd fastre && npm run build",
+  "buildCommand": "cd fastre && chmod +x build.sh && ./build.sh",
   "outputDirectory": "fastre/.next",
   "devCommand": "cd fastre && npm run dev",
-  "installCommand": "cd fastre && npm install",
+  "installCommand": "cd fastre && npm install --legacy-peer-deps",
   "framework": "nextjs",
   "rewrites": [
     { "source": "/(.*)", "destination": "/fastre/$1" }
