@@ -13,6 +13,5 @@
       "main": true
     },
     "cloneIgnorePatterns": ["fastre/.git", "node_modules"]
-  },
-  "rootDirectory": "fastre"
+  }
 } 

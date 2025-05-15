@@ -1,0 +1,6 @@
+# Vercel için görmezden gelinecek dosyalar ve dizinler
+node_modules
+.git
+.gitignore
+README.md
+.vscode 
