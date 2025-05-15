@@ -8,6 +8,10 @@
     { "source": "/(.*)", "destination": "/fastre/$1" }
   ],
   "git": {
-    "submodules": false
+    "submodules": false,
+    "deploymentEnabled": {
+      "main": true
+    },
+    "cloneIgnorePatterns": ["fastre/.git", "node_modules"]
   }
 } 
