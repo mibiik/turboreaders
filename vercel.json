@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd fastre && npm run build",
+  "outputDirectory": "fastre/.next",
+  "devCommand": "cd fastre && npm run dev",
+  "installCommand": "cd fastre && npm install",
+  "framework": "nextjs",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/fastre/$1" }
+  ]
+} 
