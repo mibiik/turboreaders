@@ -1,0 +1,26 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "css.validate": false,
+  "css.lint.validProperties": [],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0052cc",
+    "titleBar.activeForeground": "#ffffff"
+  },
+  "editor.mouseWheelZoom": false,
+  "editor.accessibilitySupport": "off",
+  "editor.rulers": [100],
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "browser.enableApplicationInsights": false
+} 

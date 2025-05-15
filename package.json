@@ -1,0 +1,13 @@
+{
+  "name": "mirac",
+  "version": "1.0.0",
+  "description": "FastReader App Wrapper",
+  "scripts": {
+    "dev": "cd fastre && npm run dev",
+    "build": "cd fastre && npm run build",
+    "start": "cd fastre && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+} 
